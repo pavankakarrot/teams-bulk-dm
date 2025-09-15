@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "CLIENT_ID": "cf224d08-abc8-43cc-b83c-ad7e7bf6895a",
+    "TENANT_ID": "14feaaa2-815e-4739-aef6-12bba90c8985",
+    "TOKEN_CACHE_PATH": "./token-cache.json",
+    "EXCEL_PATH": "./recipients.xlsx"
+  }
+}

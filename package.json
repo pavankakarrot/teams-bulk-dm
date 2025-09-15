@@ -1,0 +1,18 @@
+{
+  "name": "teams-bulk-dm",
+  "version": "1.0.0",
+  "main": "function/SendDm/index.js",
+  "scripts": {
+    "deviceAuth": "node src/deviceAuth.js",
+    "start-func": "func start"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^3.7.3",
+    "axios": "^1.4.0",
+    "dotenv": "^17.2.2",
+    "exceljs": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=18 <=20"
+  }
+}
